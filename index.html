@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icon.ico" type="image/x-icon">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <header>Etch-a-Sketch</header>
+    <div class="main">
+        <div class="container">
+            <div class="boxes"></div>
+    
+            <div class="settings">
+                <div class="favInput"><label for="favcolor">Select Color:</label>
+                    <input type="color" id="favcolor" class="favcolor" value="#ff0000"></div>
+                <button id="Black">Black</button>
+                <button id="Eraser">Eraser</button>
+                <button id="Random">Random</button>
+                <button id="Reset">Reset</button>
+                <div id="input">16 x 16</div>
+                <input id="gridSize" type="range" value="16" min="2" max="64">
+            </div>
+        </div>
+
+        <div class="gridSetting">
+            <button id="borderStyle">Grid Lines: Off</button>
+            <div class="gridColor"><label for="gridColor">Grid Color:</label>
+                <input type="color" id="gridColor" class="favcolor" value="#FFFFFF"></div>
+        </div>
+    </div>
+    <footer>CopyRight © The Odin Project</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

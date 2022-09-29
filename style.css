@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background-color: #EFFFFD;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #719FB0;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bolder;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.boxes {
+    display: grid;
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+}
+
+.gridSetting {
+    display: flex;
+    gap: 30px;
+    font-weight: bold;
+}
+
+button, input {
+    width: 100%;
+}
+
+button {
+    background-color: #EFFFFD;
+    border-color: #719FB0;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.favInput, .gridColor {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label, #gridColor {
+    flex-shrink: 0;
+}
+.favcolor{
+    height: 40px;
+    width: 40px;
+    border: none;
+    padding: 0px;
+}
+
+.active {
+    background-color: #A5C9CA;
+    color: white;
+}
+
+footer {
+    font-weight: bolder;
+    text-align: center;
+}
